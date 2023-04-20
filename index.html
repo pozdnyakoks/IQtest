@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Тест на определение IQ</title>
+  <link rel="icon" type="image" href="/images/brain.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      <div class="container">
+        <button class="header__burger" aria-label="open menu">
+          <span class="header__burger-line"></span>
+          <span class="header__burger-line"></span>
+          <span class="header__burger-line"></span>
+        </button>
+
+        <div class="header__quiz">
+          <img src="images/miniBrain.png" alt="brain">
+          <p class="header__title">тест на определение IQ
+          </p>
+        </div>
+
+        <nav class="nav">
+          <button class="header__close" aria-label="close"><svg width="28" height="28" viewBox="0 0 28 28" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M28 2.82L25.18 0L14 11.18L2.82 0L0 2.82L11.18 14L0 25.18L2.82 28L14 16.82L25.18 28L28 25.18L16.82 14L28 2.82Z"
+                fill="#FFC700" />
+            </svg>
+          </button>
+          <ul class="header__list">
+            <li class="header__list-item"><a href="#">Главная</a></li>
+            <li class="header__list-item"><a href="#about">Информация о тесте</a></li>
+            <li class="header__list-item start"><a href="#">Пройти тест</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="quiz">
+    </div>
+
+    <div class="ready">
+      <div class="container">
+        <h2 class="ready__title">
+          Ваш результат рассчитан:
+        </h2>
+        <p class="ready__desc"><span>Вы относитесь к 3%</span> респондентов, чей уровень интеллекта более чем на
+          15 пунктов отличается от среднего в большую или меньшую сторону!</p>
+
+        <h2 class="ready__title2">Скорее получите свой результат!
+        </h2>
+        <div class="ready__block">
+          <p>В целях защиты персональных
+            данных результат теста, их подробная интерпретация и рекомендации доступны в виде голосового сообщения по
+            звонку с
+            вашего мобильного телефона
+          </p>
+        </div>
+
+        <p class="ready__desc2">Звоните скорее, запись доступна всего
+          <span id="time">
+            <span id="minutes">10</span>:<span id="seconds">00</span>
+          </span>
+          &nbsp;минут
+        </p>
+
+        <button class="ready__button">
+          <img src="./images/phone.svg" alt="call">
+          <span>Позвонить и прослушать
+            результат</span>
+        </button>
+
+        <img class="lightning lightning-left2" src="./images/lightningLeft2.png" alt="lightning">
+        <img class="lightning lightning-right2" src="./images/lightningright2.png" alt="lightning">
+
+        <div class="footer">TERMENI SI CONDITII: ACESTA ESTE UN SERVICIU DE DIVERTISMENT. PRIN FOLOSIREA LUI DECLARATI
+          CA
+          AVETI 18 ANI IMPLINITI,
+        </div>
+      </div>
+    </div>
+
+    <main>
+      <section class="section hero">
+        <div class="container">
+          <p class="hero__desc">Пройдите точный и быстрый
+          </p>
+          <h1 class="hero__title">Тест на определение IQ</h1>
+          <img class="hero__img" src="images/brain.png" alt="brain">
+          <button class="btn hero__btn main__btn start">Пройти тест</button>
+          <p class="hero__desc-bottom">И получите рекомендации
+            по&nbsp;развитию своего интеллекта
+            <span class="highlighted">и&nbsp;улучшению финансового благосостояния и личной жизни</span>
+          </p>
+          <div class="hero__more">
+            <img src="images/arrow.svg" alt="arrow up">
+            <span>Подробнее</span>
+          </div>
+        </div>
+      </section>
+      <section class="section quote">
+        <div class="container">
+          <p class="quote__desc">
+            <svg width="24" height="23" viewBox="0 0 24 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M5.84845 22.65C4.84845 22.65 3.91512 22.2667 3.04845 21.5C2.21512 20.7 1.54845 19.6667 1.04845 18.4C0.581788 17.1333 0.34845 15.7833 0.34845 14.35C0.34845 12.15 0.731785 10.0833 1.49845 8.14999C2.29845 6.18332 3.26512 4.53332 4.39845 3.19999C5.53179 1.83332 6.61512 0.866655 7.64845 0.299988H7.69846L9.44846 1.89999V2.59999C8.61512 3.36665 7.83178 4.46665 7.09845 5.89999C6.36512 7.29999 5.99845 9.03332 5.99845 11.1C5.99845 12.1667 6.14846 13.0333 6.44846 13.7C6.74846 14.3667 7.19845 15.1 7.79845 15.9C8.29845 16.5333 8.66512 17.0833 8.89845 17.55C9.13179 18.0167 9.24845 18.5833 9.24845 19.25C9.24845 20.25 8.91512 21.0667 8.24845 21.7C7.61512 22.3333 6.81512 22.65 5.84845 22.65ZM19.7485 22.65C18.7485 22.65 17.8318 22.2667 16.9985 21.5C16.1651 20.7 15.4985 19.6667 14.9985 18.4C14.5318 17.1333 14.2985 15.7833 14.2985 14.35C14.2985 12.15 14.6818 10.0833 15.4485 8.14999C16.2485 6.18332 17.2151 4.51665 18.3484 3.14999C19.4818 1.78332 20.5651 0.83332 21.5984 0.299988H21.6485L23.3484 1.89999V2.59999C22.5151 3.36665 21.7318 4.46665 20.9985 5.89999C20.2651 7.29999 19.8985 9.03332 19.8985 11.1C19.8985 12.1667 20.0485 13.0333 20.3484 13.7C20.6484 14.3667 21.0985 15.1 21.6985 15.9C22.1985 16.5333 22.5651 17.0833 22.7985 17.55C23.0318 18.0167 23.1485 18.5833 23.1485 19.25C23.1485 20.25 22.8151 21.0667 22.1485 21.7C21.5151 22.3333 20.7151 22.65 19.7485 22.65Z"
+                fill="white" />
+            </svg>
+            Профессиональный IQ&nbsp;-&nbsp;тест&nbsp;позволяет не только определить коэффициент
+            вашего
+            интеллекта,
+            но&nbsp;и&nbsp;выработать&nbsp;список рекомендаций для повышения этого показателя.
+            <svg class="bottom" width="23" height="23" viewBox="0 0 23 23" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M17.5 -2.71837e-05C18.5 -2.70963e-05 19.4333 0.383308 20.3 1.14997C21.1333 1.94998 21.8 2.98331 22.3 4.24997C22.7667 5.51664 23 6.86664 23 8.29998C23 10.5 22.6167 12.5666 21.85 14.5C21.05 16.4666 20.0833 18.1166 18.95 19.45C17.8167 20.8166 16.7333 21.7833 15.7 22.35L15.65 22.35L13.9 20.75L13.9 20.05C14.7333 19.2833 15.5167 18.1833 16.25 16.75C16.9833 15.35 17.35 13.6166 17.35 11.55C17.35 10.4833 17.2 9.61664 16.9 8.94997C16.6 8.28331 16.15 7.54998 15.55 6.74998C15.05 6.11664 14.6833 5.56664 14.45 5.09997C14.2167 4.63331 14.1 4.06664 14.1 3.39997C14.1 2.39997 14.4333 1.58331 15.1 0.949973C15.7333 0.316639 16.5333 -2.72682e-05 17.5 -2.71837e-05ZM3.59999 -2.83989e-05C4.59999 -2.83115e-05 5.51666 0.383307 6.34999 1.14997C7.18333 1.94997 7.85 2.98331 8.35 4.24997C8.81667 5.51664 9.05 6.86664 9.05 8.29997C9.05 10.5 8.66666 12.5666 7.89999 14.5C7.09999 16.4666 6.13333 18.1333 5 19.5C3.86667 20.8666 2.78333 21.8166 1.75 22.35L1.7 22.35L1.39876e-07 20.75L2.01072e-07 20.05C0.833333 19.2833 1.61666 18.1833 2.34999 16.75C3.08333 15.35 3.45 13.6166 3.45 11.55C3.45 10.4833 3.3 9.61664 3 8.94997C2.7 8.28331 2.25 7.54997 1.65 6.74997C1.15 6.11664 0.783324 5.56664 0.549989 5.09997C0.316657 4.63331 0.199999 4.06664 0.199999 3.39997C0.199999 2.39997 0.533333 1.58331 1.2 0.949972C1.83333 0.316638 2.63333 -2.84834e-05 3.59999 -2.83989e-05Z"
+                fill="white" />
+            </svg>
+          </p>
+        </div>
+      </section>
+      <section class="section results">
+        <div class="container">
+          <p class='results__desc'>Также по результатам теста
+            <b>ВЫ&nbsp;ПОЛУЧИТЕ</b> подробные <b>СОВЕТЫ</b> по определению наиболее перспективной <b>ДЛЯ ВАШЕГО ТИПА
+              интеллекта
+              СФЕРЫ ДЕЯТЕЛЬНОСТИ,</b>
+            которая&nbsp;принесет вам скорейший финансовый результат.
+          </p>
+          <img src="images/brainScheme.jpg" alt="brain scheme">
+          <button class="btn results__btn main__btn start">Пройти Тест</button>
+        </div>
+      </section>
+      <div class="bottom__block">
+        <section id="about" class="section about container">
+          <img class="lightning lightning-left" src="./images/lightningLeft.png" alt="lightning">
+          <img class="lightning lightning-right" src="./images/lightningRight.png" alt="lightning">
+          <p class="about__desc">Прохождение теста займет у вас&nbsp;не более <span class="highlighted">12 минут</span>,
+            а его <b>результаты</b> вы сможете
+            <span class="highlighted">использовать всю жизнь.</span>
+          </p>
+          <div class="about__block">
+            <p>
+              Профессиональная интерпретация и детально <b>проработанные рекомендации</b> позволят вам качественно
+              <b>изменить все аспекты своей
+                жизни:</b> от финансового до любовного.
+            </p>
+          </div>
+          <button class="btn about__btn start">Пройти тест</button>
+        </section>
+        <footer class="container">
+          <div class="container">
+            <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M4.71836 6.46168C4.95365 6.46168 5.15924 6.39037 5.33512 6.24777C5.51099 6.10517 5.60844 5.92692 5.62745 5.71301H6.25134C6.23945 5.93405 6.1634 6.14439 6.02317 6.34403C5.88295 6.54367 5.69519 6.70291 5.45989 6.82175C5.22698 6.94058 4.9798 7 4.71836 7C4.19311 7 3.77481 6.82531 3.46346 6.47594C3.15449 6.12418 3 5.64409 3 5.03565V4.92513C3 4.54961 3.06892 4.21569 3.20677 3.92335C3.34462 3.63102 3.54189 3.40404 3.79857 3.24242C4.05764 3.08081 4.36304 3 4.71479 3C5.14736 3 5.50624 3.12953 5.79144 3.38859C6.07903 3.64765 6.23232 3.98396 6.25134 4.3975H5.62745C5.60844 4.14795 5.51337 3.94355 5.34225 3.78431C5.1735 3.6227 4.96435 3.54189 4.71479 3.54189C4.37968 3.54189 4.11943 3.6631 3.93405 3.90553C3.75104 4.14557 3.65954 4.49376 3.65954 4.95009V5.07487C3.65954 5.51931 3.75104 5.86156 3.93405 6.1016C4.11705 6.34165 4.37849 6.46168 4.71836 6.46168Z"
+                fill="white" fill-opacity="0.5" />
+              <circle cx="5" cy="5" r="4.4" stroke="white" stroke-opacity="0.5" stroke-width="0.8" />
+            </svg>
+            2019
+          </div>
+        </footer>
+      </div>
+    </main>
+  </div>
+
+  <script src="js/index.js" type="module"></script>
+</body>
+
+</html>
